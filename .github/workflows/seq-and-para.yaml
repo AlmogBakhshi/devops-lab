@@ -3,7 +3,8 @@ name: Combined Sequential and Parallel Jobs
 on:
   push:
     branches:
-      - test
+      - main
+  workflow_dispatch:
 
 jobs:
   build:
